@@ -3,7 +3,7 @@
 		<span>
 			<select name="" id="sel"  v-model="selValue" @change="selChange($event)">
 				<option value="" style="display: none;">请选择</option>
-				<option  v-for="item in seloption" :value="item.val">{{item.label}}</option>
+				<option  v-for="item in seloption" :value="item.val" :key="item.val">{{item.label}}</option>
 			</select>
 		</span>
 		<span>
