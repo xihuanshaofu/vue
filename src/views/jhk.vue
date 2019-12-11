@@ -45,7 +45,6 @@
 						this.inputval = this.seloption[i].label
 					}
 				}
-				console.log(this.inputval)
 			}
 		}
 	}
